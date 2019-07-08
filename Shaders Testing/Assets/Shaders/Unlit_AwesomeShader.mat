@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lerp2Textures
-  m_Shader: {fileID: 4800000, guid: 8a348ba8ddeb0c549a90351718b0851c, type: 3}
+  m_Name: Unlit_AwesomeShader
+  m_Shader: {fileID: 4800000, guid: 5eb5b8079a3046d43a3a0f829d6ee72a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,14 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 51e2d690f5d3f654783c16529d35aed7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondTex:
-        m_Texture: {fileID: 2800000, guid: de4252e2de556c6498561fbc96048a86, type: 3}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: a2382b9190c35d84ba16610eb99963f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Range: 0.492
-    m_Colors: []
+    - _Amplitude: 10
+    - _WaveFrequency: 0.262
+    - _WaveHeight: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
